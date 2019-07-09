@@ -1,0 +1,29 @@
+<web-app>
+	<servlet>
+		<servlet-name>OldResponse</servlet-name>
+		<servlet-class>OldResponse</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Sheru</servlet-name>
+		<servlet-class>Sheru</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Validate</servlet-name>
+		<servlet-class>Validate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OldResponse</servlet-name>
+		<url-pattern>/next</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Sheru</servlet-name>
+		<url-pattern>/shery</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Validate</servlet-name>
+		<url-pattern>/validate</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-list>index.html</welcome-list>
+	</welcome-file-list>
+</web-app>
